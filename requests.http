@@ -1,0 +1,12 @@
+POST http://localhost:3000/login
+content-type: application/json
+
+{
+    "username": "nialljoemaher",
+    "password": "securepassword"
+}
+
+### 
+
+GET http://localhost:3000/protected
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJuaWFsbGpvZW1haGVyIiwiaWF0IjoxNjg2MjA0NTE1LCJleHAiOjE2ODYyMDgxMTV9.tkFK_U0oM4D-Cdw3wK4CynmlF9OYKfPmxIratfFr4aE
